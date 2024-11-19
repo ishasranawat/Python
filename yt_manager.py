@@ -4,7 +4,6 @@ def load_data():
     try:
         with open('youtube.txt', 'r') as file:
             test = json.load(file)
-            # print(type(test))
             return test
     except FileNotFoundError:
         return []
