@@ -20,3 +20,9 @@ def list_all_videos(videos):
         print(f"{index}. {video['name']}, Duration: {video['time']} ")
     print("\n")
     print("*" * 70)
+
+def add_video(videos):
+    name = input("Enter video name: ")
+    time = input("Enter video time: ")
+    videos.append({'name': name, 'time': time})
+    save_data_helper(videos)
