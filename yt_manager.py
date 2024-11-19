@@ -13,10 +13,6 @@ def save_data_helper(videos):
     with open('youtube.txt', 'w') as file:
         json.dump(videos, file)
 
-def save_data_helper(videos):
-    with open('youtube.txt', 'w') as file:
-        json.dump(videos, file)
-
 def list_all_videos(videos):
     print("\n")
     print("*" * 70)
