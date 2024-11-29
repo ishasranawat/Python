@@ -36,3 +36,13 @@ def update_video(videos):
         save_data_helper(videos)
     else:
         print("Invalid index selected")
+
+def delete_video(videos):
+    list_all_videos(videos)
+    index = int(input("Enter the video number to be deleted: "))
+    
+    if 1<= index <= len(videos):
+        del videos[index-1]
+        save_data_helper(videos)
+    else:
+        print("Invalid video index selected")
