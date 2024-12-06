@@ -5,6 +5,8 @@ for i in range(1, n+1):
     print("*" *(2*i-1))
 
 
+
+
 # searching  a number 
 
 tuple=(1,4,9,16,25,36,49,64,81,100)
