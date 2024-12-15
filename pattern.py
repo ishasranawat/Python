@@ -43,6 +43,10 @@ for i in range(1,11):
     print(f"{a}*{i} = {a*i}") 
 
 
+#print a table using for loop
+a=int(input("Enter the number: "))
+for i in range(1,11):
+    print(f"{a}*{i} = {a*i}") 
 
 
 
