@@ -11,6 +11,7 @@ else:
 a="click here"
 b="buy now"
 c="subscribe"
+d="free followers"
 
 message= input("Enter your phrase: ")
 
@@ -19,3 +20,5 @@ if(a in message or b in message or c in message):
 
 else:
   print("not a spam")
+
+
