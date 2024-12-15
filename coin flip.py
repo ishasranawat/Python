@@ -15,7 +15,7 @@ d="free followers"
 
 message= input("Enter your phrase: ")
 
-if(a in message or b in message or c in message):
+if(a in message or b in message or c or d in message):
   print("spam")
 
 else:
