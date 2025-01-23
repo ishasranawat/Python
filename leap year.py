@@ -4,5 +4,4 @@ def is_leap_year(year):
     else:
         return False
 
-
 print(is_leap_year(2400))
