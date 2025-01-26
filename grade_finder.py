@@ -2,7 +2,7 @@
 a= int(input("Enter your score:"))
 
 if(90<=a<=100):
-    print("Your grade is Ex.")
+    print("Your grade is .")
 elif(80<=a<90):
     print("Your grade is A.")
 elif(70<=a<80):
